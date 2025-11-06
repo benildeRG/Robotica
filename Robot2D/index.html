@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robot 2D</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Robot 2D</h1>
+  <h2>Primer examen parcial</h2>
+
+  <div class="controls">
+    <label>X (cm): <input type="number" id="x" step="0.1" value="14"></label>
+    <label>Y (cm): <input type="number" id="y" step="0.1" value="14"></label>
+    <button id="mover">Mover</button>
+    <button id="home">Home</button>
+    <button id="limpiar">Limpiar trayectoria</button>
+  </div>
+
+  <p id="msg"></p>
+
+  <div class="canvas-container">
+    <canvas id="robotCanvas" width="500" height="400"></canvas>
+  </div>
+
+  <div class="plots">
+    <canvas id="q1Plot" width="240" height="150"></canvas>
+    <canvas id="q2Plot" width="240" height="150"></canvas>
+  </div>
+
+  <footer class="footer">
+  <p>Universidad Nacional Atónoma de México</p> 
+   <p>Factultad de Estudios Superiores Aragón</p>
+   <p>Benilde Rodríguez González</p>
+   <p>Robótica </p>
+   <p>Grupo: 1010</p>
+    
+  </footer>
+
+
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
